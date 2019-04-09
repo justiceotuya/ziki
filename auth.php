@@ -1,4 +1,5 @@
 <?php
+include 'includes/config.php';
 require_once './Authentication/auth/googleinit.php';
 require_once './Authentication/auth/facebookinit.php';
 ?>
