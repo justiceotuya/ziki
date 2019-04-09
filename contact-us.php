@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/base.css">
 </head>
-<body class="">
+<body class="dark">
     <div class="container-fluid">
         <div class="row">
             <img class="header-img" src="assets/img/header.png" >

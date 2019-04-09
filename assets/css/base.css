@@ -54,7 +54,6 @@ html {
   font-size: 16px;
   height: 100%;
 }
-
 *,
 *::before,
 *::after {
@@ -171,21 +170,20 @@ button {
   }
 }
 
-.dark-theme.justice-error-main {
+.dark .justice-error-main {
   background-color: #07223e;
   color: white;
 }
-.dark-theme .fof-navbar a {
+.dark .fof-navbar a {
   color: white;
 }
-.dark-theme .fof-navbar a:hover {
+.dark .fof-navbar a:hover {
   color: #3667e7;
 }
 
 .fof-navbar {
   text-align: center;
 }
-
 .fof-navbar a {
   display: inline-block;
   color: var(--fof-navbar-link-color);
@@ -236,7 +234,7 @@ button {
 /* =======================
 Authentication Styling
 ======================= */
-.dark-theme .auth-main-container {
+.dark .auth-main-container {
   background: #07223e;
 }
 .auth-main-container {
@@ -250,7 +248,7 @@ Authentication Styling
   background: #fff;
   color: #000;
 }
-.dark-theme .auth-content-wrap {
+.dark .auth-content-wrap {
   background: #04274c;
   color: #fff;
 }
@@ -276,7 +274,7 @@ Authentication Styling
 }
 /* To get the second theme;
 this is the only styling it needs */
-.auth-content-wrap.dark-theme {
+.auth-content-wrap.dark {
   background: #07223e;
   color: #ffffff;
 }
@@ -632,7 +630,7 @@ Timeline && Contact Us Page Styling
 .menu-item {
   margin: 15px 0;
 }
-.dark-theme .line {
+.dark .line {
   background-color: white;
 }
 .line {
@@ -858,7 +856,7 @@ Timeline && Contact Us Page Styling
   display: block;
   box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.12);
 }
-.dark-theme .contact-us-wrap .post-input {
+.dark .contact-us-wrap .post-input {
   background: #153f6c;
   color: #fff;
 }
@@ -1155,33 +1153,33 @@ user profile settings styling
   }
 }
 /*dark theme for user-profile-setting*/
-.dark-theme .motuns-main-container {
+.dark .motuns-main-container {
   background-color: #07223e;
 }
 
-.dark-theme .motuns-side-bar {
+.dark .motuns-side-bar {
   background-color: #04274c;
 }
 
-.dark-theme .motuns-side-bar p {
+.dark .motuns-side-bar p {
   background: #07223e;
 }
 
-.dark-theme .user-profile-input {
+.dark .user-profile-input {
   background: #04274c;
   color: #ffffff;
 }
-.dark-theme .en {
+.dark .en {
   background: #04274c;
 }
 
-.dark-theme .drop {
+.dark .drop {
   background: #04274c;
   border: none;
   color: #ffffff;
 }
 
-.dark-theme .toggle {
+.dark .toggle {
   background-color: #04274c;
   fill: #ffffff;
 }
