@@ -20,6 +20,10 @@ class ComposerStaticInit5ffb1bc16664a428c88f35b307e23001
         array (
             'phpseclib\\' => 10,
         ),
+        'c' => 
+        array (
+            'cebe\\markdown\\' => 14,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
@@ -30,6 +34,10 @@ class ComposerStaticInit5ffb1bc16664a428c88f35b307e23001
         array (
             'Monolog\\' => 8,
             'Michelf\\' => 8,
+        ),
+        'L' => 
+        array (
+            'League\\HTMLToMarkdown\\' => 22,
         ),
         'G' => 
         array (
@@ -50,6 +58,10 @@ class ComposerStaticInit5ffb1bc16664a428c88f35b307e23001
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
         ),
+        'cebe\\markdown\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -69,6 +81,10 @@ class ComposerStaticInit5ffb1bc16664a428c88f35b307e23001
         'Michelf\\' => 
         array (
             0 => __DIR__ . '/..' . '/michelf/php-markdown/Michelf',
+        ),
+        'League\\HTMLToMarkdown\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/html-to-markdown/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
