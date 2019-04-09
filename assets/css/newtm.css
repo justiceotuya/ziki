@@ -74,11 +74,3 @@
   color: white;
   font-weight: bold;
 }
-
-/* Mobile Style */
-
-@media (max-width: 767.98px) {
-  .side-info {
-    display: none;
-  }
-}
