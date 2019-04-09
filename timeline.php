@@ -1,7 +1,19 @@
-<?php
-$title = "Timeline";
-include 'header.php';
- ?>
+<!-- mylo carson 2019-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Timeline</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/newtm.css">
+</head>
+<body class="">
     <div class="container-fluid">
 
         <div class="row">
@@ -17,19 +29,19 @@ include 'header.php';
           </div>
 
           <div class="personal-info text-center ">
-            <h1><?php echo $name; ?></h1>
+            <h1>Tamz Hallz</h1>
             <div class="font-weight-bold skillset">
-              <?php echo $email; ?>
+              UI/UX Designer | Content Designer | Product Newbie
             </div>
             <div class="shortbio">
               I'm kinda weird in a good way..... I design for survival
             </div>
           </div>
 
-          <div class="sidebar-icons text-center my-3">
-            <i class="fab fa-github social"></i>
-            <i class="fab fa-dribbble social"></i>
-            <i class="fas fa-rss social"></i>
+          <div class="sidebar-icons text-center my-3"> 
+            <a href="https://github.com"><i class="fab fa-github social"></i></a>
+            <a href="https://dribble.com"><i class="fab fa-dribbble social"></i></a>
+            <a href="https://rss.com"><i class="fas fa-rss social"></i></a>
           </div>
 
           <ul class="nav flex-column p-5 my-5 text-center">
@@ -40,12 +52,18 @@ include 'header.php';
               <a class="nav-link" href="#">Insights</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Settings</a>
+              <a class="nav-link" href="/user-profile-setting.php">Settings</a>
             </li>
           </ul>
         </div>
         <!-- Sidebar Ends -->
             <div class="col-md-9">
+            <div class="row justify-content-end">
+            <a href="/auth.php" class="btn align-self-end px-5 font-weight-bold"
+              >Log out</a
+            >
+          </div>
+
                 <!-- Post Box Begins -->
                 <div class="mx-auto mt-5 mb-2 px-5">
                     <div class="post-box p-2">
@@ -90,13 +108,14 @@ include 'header.php';
                 </div>
 
 
-                    <div class="row mx-0 d-flex flex-row align-items-center  justify-content-between">
+                    <!-- Feature not needed now
+                        <div class="row mx-0 d-flex flex-row align-items-center  justify-content-between">
                         <div class="col-md-8 line ml-md-5"></div>
                         <div class="col d-inline-flex mr-md-5 flex-row justify-content-between">
                             <p class="post-filter"><span class="post-filter-title">Sort by:</span> Most Recent Posts</p>
                             <img src="assets/img/caret.svg">
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="row mx-0 mt-md-4 blog-item-wrapper first-child">
                         <div class="d-flex flex-row px-0 blog-item">
@@ -110,7 +129,7 @@ include 'header.php';
                                 <div class="d-flex flex-column blog-item-main-content">
                                      <div class="d-flex flex-row justify-content-between">
                                          <h2 class="blog-item-header text-left">This is my first Post</h2>
-
+                                         
                                      </div>
                                      <h6 class="blog-item-author text-left">Oluwa Trumpeter </h6>
                                      <p class="blog-item-content text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nuor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nulla pariatur ....</p>
@@ -128,10 +147,7 @@ include 'header.php';
                                             <a href="/blog-detail.php"><p class="blog-item-more_action ">Read More</p></a>
                                         </div>
 
-                                        <div class="d-flex flex-row align-items-center">
-                                            <img class="blog-item-action" src="assets/img/heart-filled.svg">
-                                            <img class="blog-item-action" src="assets/img/comment.svg">
-                                        </div>
+                                        
                                     </div>
                                     <p class="blog-item-date">3rd, April 2019 </p>
                                 </div>
@@ -153,7 +169,7 @@ include 'header.php';
                                 <div class="d-flex flex-column blog-item-main-content">
                                      <div class="d-flex flex-row justify-content-between">
                                          <h2 class="blog-item-header text-left">C.Ronaldo vs Messi</h2>
-
+                                         
                                      </div>
                                      <h6 class="blog-item-author text-left">Oluwa Trumpeter </h6>
                                      <p class="blog-item-content text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nuor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nulla pariatur ....</p>
@@ -171,10 +187,7 @@ include 'header.php';
                                             <a href="/blog-detail.php"><p class="blog-item-more_action ">Read More</p></a>
                                         </div>
 
-                                        <div class="d-flex flex-row align-items-center">
-                                            <img class="blog-item-action" src="assets/img/heart-filled.svg">
-                                            <img class="blog-item-action" src="assets/img/comment.svg">
-                                        </div>
+                                        
                                     </div>
                                     <p class="blog-item-date">3rd, April 2019 </p>
                                 </div>
@@ -196,7 +209,7 @@ include 'header.php';
                                 <div class="d-flex flex-column blog-item-main-content">
                                      <div class="d-flex flex-row justify-content-between">
                                          <h2 class="blog-item-header text-left">The effect of culture on design trends</h2>
-
+                                         
                                      </div>
                                      <h6 class="blog-item-author text-left">Oluwa Trumpeter </h6>
                                      <p class="blog-item-content text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nuor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nulla pariatur ....</p>
@@ -214,10 +227,7 @@ include 'header.php';
                                             <a href="/blog-detail.php"><p class="blog-item-more_action ">Read More</p></a>
                                         </div>
 
-                                        <div class="d-flex flex-row align-items-center">
-                                            <img class="blog-item-action" src="assets/img/heart.svg">
-                                            <img class="blog-item-action" src="assets/img/comment.svg">
-                                        </div>
+                                        
                                     </div>
                                     <p class="blog-item-date">3rd, April 2019 </p>
                                 </div>
@@ -239,7 +249,7 @@ include 'header.php';
                                 <div class="d-flex flex-column blog-item-main-content">
                                      <div class="d-flex flex-row justify-content-between">
                                          <h2 class="blog-item-header text-left">This is my first Post</h2>
-
+                                         
                                      </div>
                                      <h6 class="blog-item-author text-left">Oluwa Trumpeter </h6>
                                      <p class="blog-item-content text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nuor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nulla pariatur ....</p>
@@ -257,10 +267,7 @@ include 'header.php';
                                             <a href="/blog-detail.php"><p class="blog-item-more_action ">Read More</p></a>
                                         </div>
 
-                                        <div class="d-flex flex-row align-items-center">
-                                            <img class="blog-item-action" src="assets/img/heart-filled.svg">
-                                            <img class="blog-item-action" src="assets/img/comment.svg">
-                                        </div>
+                                        
                                     </div>
                                     <p class="blog-item-date">3rd, April 2019 </p>
                                 </div>
@@ -282,7 +289,7 @@ include 'header.php';
                                 <div class="d-flex flex-column blog-item-main-content">
                                      <div class="d-flex flex-row justify-content-between">
                                          <h2 class="blog-item-header text-left">This is my first Post</h2>
-
+                                         
                                      </div>
                                      <h6 class="blog-item-author text-left">Oluwa Trumpeter </h6>
                                      <p class="blog-item-content text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nuor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nulla pariatur ....</p>
@@ -300,10 +307,7 @@ include 'header.php';
                                             <a href="/blog-detail.php"><p class="blog-item-more_action ">Read More</p></a>
                                         </div>
 
-                                        <div class="d-flex flex-row align-items-center">
-                                            <img class="blog-item-action" src="assets/img/heart.svg">
-                                            <img class="blog-item-action" src="assets/img/comment.svg">
-                                        </div>
+                                        
                                     </div>
                                     <p class="blog-item-date">3rd, April 2019 </p>
                                 </div>
@@ -324,7 +328,7 @@ include 'header.php';
                                 <div class="d-flex flex-column blog-item-main-content">
                                      <div class="d-flex flex-row justify-content-between">
                                          <h2 class="blog-item-header text-left">This is my first Post</h2>
-
+                                         
                                      </div>
                                      <h6 class="blog-item-author text-left">Oluwa Trumpeter </h6>
                                      <p class="blog-item-content text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nuor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dgiat nulla pariatur ....</p>
@@ -342,10 +346,7 @@ include 'header.php';
                                             <a href="/blog-detail.php"><p class="blog-item-more_action ">Read More</p></a>
                                         </div>
 
-                                        <div class="d-flex flex-row align-items-center">
-                                            <img class="blog-item-action" src="assets/img/heart-filled.svg">
-                                            <img class="blog-item-action" src="assets/img/comment.svg">
-                                        </div>
+                                        
                                     </div>
                                     <p class="blog-item-date">3rd, April 2019 </p>
                                 </div>
@@ -354,11 +355,16 @@ include 'header.php';
 
                     </div>
                 <!-- </div> -->
-
+                
             </div>
-
+            
         </div>
 
     </div>
 
-  <?php include 'footer.php'; ?>
+    <script>
+    const toggleThemeBtn = document.querySelector('.toggle-theme');
+    toggleThemeBtn.addEventListener('click', e => document.querySelector('body').classList.toggle('dark'));
+    </script>
+</body>
+</html>

@@ -8,7 +8,7 @@ include 'header.php';
 
     <div class="container-fluid">
         <div class="row justify-content-between m-4">
-            <img class="img-fluid logo" src="assets/img/logo.png">
+            <img class="img-fluid logo" src="assets/img/zikilogo.png">
             <a href="/auth.php" class="btn btn-primary align-self-end px-5">Login</a>
         </div>
   <?php  }else {
@@ -42,12 +42,16 @@ include 'header.php';
                                             <p class="blog-item-tag text-center">Javascript</p>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Tech</p>
+					</a>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Hotels</p>
+					</a>
                                         </div>
-                                        <a href="/auth.php">
+                                        <a href="/blog-detail.php">
                                             <p class="blog-item-more_action ">Read More</p>
                                         </a>
                                     </div>
@@ -87,12 +91,16 @@ include 'header.php';
                                             <p class="blog-item-tag text-center">Javascript</p>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Tech</p>
+					</a>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Hotels</p>
+					</a>
                                         </div>
-                                        <a href="/auth.php">
+                                        <a href="/blog-detail.php">
                                             <p class="blog-item-more_action ">Read More</p>
                                         </a>
                                     </div>
@@ -131,12 +139,16 @@ include 'header.php';
                                             <p class="blog-item-tag text-center">Javascript</p>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Tech</p>
+					</a>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Hotels</p>
+					</a>
                                         </div>
-                                        <a href="/auth.php">
+                                        <a href="/blog-detail.php">
                                             <p class="blog-item-more_action ">Read More</p>
                                         </a>
                                     </div>
@@ -177,12 +189,16 @@ include 'header.php';
                                             <p class="blog-item-tag text-center">Javascript</p>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Tech</p>
+					</a>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Hotels</p>
+					</a>
                                         </div>
-                                        <a href="/auth.php">
+                                        <a href="/blog-detail.php">
                                             <p class="blog-item-more_action ">Read More</p>
                                         </a>
                                     </div>
@@ -222,12 +238,16 @@ include 'header.php';
                                             <p class="blog-item-tag text-center">Javascript</p>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Tech</p>
+					</a>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Hotels</p>
+					</a>
                                         </div>
-                                        <a href="/auth.php">
+                                        <a href="/blog-detail.php">
                                             <p class="blog-item-more_action ">Read More</p>
                                         </a>
                                     </div>
@@ -266,12 +286,16 @@ include 'header.php';
                                             <p class="blog-item-tag text-center">Javascript</p>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Tech</p>
+					</a>
                                         </div>
                                         <div class="blog-item-tag-wrapper">
+					<a href="#">
                                             <p class="blog-item-tag text-center">Hotels</p>
+					</a>
                                         </div>
-                                        <a href="/auth.php">
+                                        <a href="/blog-detail.php">
                                             <p class="blog-item-more_action ">Read More</p>
                                         </a>
                                     </div>
