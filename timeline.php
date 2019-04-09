@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php'; 
+if(isset($_SESSION['name'])) {
+
+?>
         <div class="row">
             <img class="header-img" src="assets/img/header.png" >
         </div>
@@ -341,4 +344,9 @@
             </div>
         </div>
 
-  <?php include 'footer.php'; ?>
+        <?php }
+else{
+    header('Location: auth.php');//redirect to login page, or...
+
+}
+include 'footer.php'; ?>
