@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/base.css">
 </head>
 
-<body class="dark">
+<body class="">
     <main class="justice-error-main">
         <h1 class="fof-warning-text">Oops! Loooks like that page doesn't exist</h1>
         <!-- <p class="fof-second-text"></p> -->
