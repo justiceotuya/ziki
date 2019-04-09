@@ -20,6 +20,10 @@ class ComposerStaticInit5ffb1bc16664a428c88f35b307e23001
         array (
             'phpseclib\\' => 10,
         ),
+        'c' => 
+        array (
+            'cebe\\markdown\\' => 14,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
@@ -54,6 +58,10 @@ class ComposerStaticInit5ffb1bc16664a428c88f35b307e23001
         'phpseclib\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
+        ),
+        'cebe\\markdown\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/cebe/markdown',
         ),
         'Psr\\Log\\' => 
         array (

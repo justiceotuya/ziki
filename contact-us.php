@@ -68,7 +68,6 @@
                         <div class="d-flex flex-row px-0 blog-item">
                             <div class="blog-item-main d-flex flex-row">
                                 <div class="d-flex flex-column blog-item-main-content">
-
                                      <div class="contact-form-con">
                                      <h4 class="blog-item-author text-left">Get in Touch </h4>
                                      <p class="blog-item-content text-left">How can we help you? we'd love to hear from you</p>
@@ -83,7 +82,6 @@
                                          </div>
                                      </form>
                                      </div>
-
                                 </div>
                             </div>
                         </div>
