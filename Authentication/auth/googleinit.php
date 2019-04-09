@@ -6,7 +6,8 @@ require ("vendor/autoload.php");
 $g_client = new Google_Client();
 $g_client->setClientId("2070310808-dfavj133e4eda2ueprv1tfqemspcb3vb.apps.googleusercontent.com");
 $g_client->setClientSecret("DBsnKq_qekAhT7sMWxEHs1sB");
-$g_client->setRedirectUri('http://localhost:8000/temp_landing_page.php');
+$g_client->setRedirectUri('http://localhost/ziki/temp_landing_page.php');
+//$g_client->setAuthConfigFile('client_secret.json');
 $g_client->setScopes(array('https://www.googleapis.com/auth/userinfo.email','https://www.googleapis.com/auth/userinfo.profile'));
 
 //function to save access token to json file
@@ -26,6 +27,9 @@ if(isset($code)) {
        //= $gaccess_token;
       $g_client->setAccessToken($_SESSION['accesstoken']);
       $user_info = $g_client->verifyIdToken();
+
+      //$token_data = $_SESSION['accesstoken'];
+      //$user_id = $token_data['id_token'];
 
       //header('Location: index.php');//please enter homepage here
 
